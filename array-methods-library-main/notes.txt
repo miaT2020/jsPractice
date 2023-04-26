@@ -1,0 +1,22 @@
+- How to install Jest
+- What unit testing is
+- Why testing is important
+- How to write unit tests with Jest
+- The importance of test coverage
+npm init -y
+npm --save-dev jest
+npm test
+add --watchall "test": "jest --watchAll"
+https://www.youtube.com/watch?v=FgnxcUQ5vho&t=199s
+
+
+
+Why Is Array/Object Destructuring So Useful And How To Use It
+https://www.youtube.com/watch?v=NIq3qLaHCIs
+blog
+https://blog.webdevsimplified.com/2020-08/destructuring-and-spread/
+
+intall quokkajs
+
+live Server
+https://www.youtube.com/watch?v=VknMxAIbJj4

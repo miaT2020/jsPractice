@@ -1,0 +1,76 @@
+.grid-container {
+  display: grid;
+  /* grid-template-columns: 200px 250px;
+  grid-auto-rows: minmax(150px, auto); */
+  /* grid-gap: 20px;
+  justify-items: stretch;
+  align-items: stretch; */
+}
+
+/* .grid-item-1 {
+  align-self: start;
+  justify-self: center;
+} */
+
+/* Background Styles Only */
+
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+* {
+  font-family: Raleway;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 250px;
+  grid-auto-rows: minmax(150px, auto);
+  /* grid-template-rows: 200px;
+  grid-auto-rows: 70px; */
+  grid-gap: 20px;
+  /* justify-content: stretch;
+  align-content: stretch;
+  height: 100vh; */
+  justify-items: stretch;
+  justify-content: stretch;
+  /* grid-template-areas:
+    "top top"
+    "sidebar content"
+    "sidebar content"; */
+}
+
+.grid-item-1 {
+  /* grid-area: top; */
+  /* grid-column: 1/-1; */
+  /* grid-column: span 2; */
+  align-self: start;
+}
+.grid5-item-2 {
+  grid-row: 2/4;
+  /* grid-area: sidebar; */
+  /* grid-column-start: 1;
+  grid-column-end: 2; */
+}
+.grid5-item-3 {
+  /* grid-column-start: 2;
+  grid-column-end: 3; */
+  grid-row: 2/4;
+}
+
+/* .grid-item {
+  position: relative;
+  font-size: 25px;
+  padding: 20px;
+  padding-top: 50px;
+  background-color: #379ad6;
+  color: #222;
+  border: 1px solid white;
+} */
+/* 
+using flexbox contianers inside diffrent grid items 
+is one of the best way to layout a site */
